@@ -47,6 +47,18 @@ local function removeSpecificParts()
         if success and result then safeRemove(result) end
     end
 
+    try(function() return temple["GiantRoom"]:GetChildren()[18]:FindFirstChild("FHead") end)
+    try(function() return temple:FindFirstChild("Orbs") end)
+    try(function() return temple:GetChildren()[78] end)
+    try(function() return temple["GiantRoom"]:GetChildren()[43] end)
+    try(function() return temple["GiantRoom"]:GetChildren()[57] end)
+    try(function() return temple["GiantRoom"]:GetChildren()[58] end)
+    try(function() return temple["GiantRoom"]:GetChildren()[52]:GetChildren()[6] end)
+    try(function() return temple["GiantRoom"]:GetChildren()[52]:GetChildren()[5] end)
+    try(function() return temple["GiantRoom"]:GetChildren()[186] end)
+    try(function() return temple["GiantRoom"]:GetChildren()[42] end)
+
+    -- เดิม
     try(function() return temple:GetChildren()[7]:GetChildren()[5] end)
     try(function() return temple:GetChildren()[25]:GetChildren()[6] end)
     try(function() return temple.GiantRoom:FindFirstChild("FallingLeaves") end)
